@@ -47,12 +47,26 @@
 // Console.WriteLine(h);
 // Console.WriteLine(i);
 
-public class MyFirstApp
-{
-    public static void Main()
-    {
-        int age = 26;
-        string name = "Calvin";
-        Console.WriteLine(name +" is " + age + " years old.");
-    }
+// public class MyFirstApp
+// {
+//     static int test = 100;
+//     public static void Main()
+//     {
+//         int age = 26;
+//         string name = "Calvin";
+//         Console.WriteLine(name +" is " + age + " years old.");
+//     }
+// }
+
+
+// int t1 = 4;
+// int t2 = 5;
+// Console.WriteLine("============" + (t1 == t2));
+
+//pretty similar to JS, but jesus christ -__-
+var num = 3;
+if (num > 2) {
+    Console.WriteLine("success");
+} else {
+    Console.WriteLine("failed");
 }
