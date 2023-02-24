@@ -64,9 +64,46 @@
 // Console.WriteLine("============" + (t1 == t2));
 
 //pretty similar to JS, but jesus christ -__-
-var num = 3;
-if (num > 2) {
-    Console.WriteLine("success");
-} else {
-    Console.WriteLine("failed");
+// var num = 3;
+// string test;
+// if (num > 2) {
+//     Console.WriteLine("success");
+//     test = Console.ReadLine();
+// } else {
+//     Console.WriteLine("failed");
+// }
+
+
+// Console.WriteLine("this is the new test: {0}", test)
+
+
+public class MyFirstApp
+{
+    public static void Main()
+    {
+        var num = 3;
+        string test;
+        if (num > 2)
+        {
+            Console.WriteLine("success");
+            string newTest = Console.ReadLine();
+            if (newTest == "")
+            {
+                test = "you did not enter anything in";
+            }
+            else
+            {
+                test = newTest;
+            }
+
+            Console.WriteLine("this is new text: {0}", test);
+        }
+        else
+        {
+            Console.WriteLine("failed");
+        }
+        Console.ReadKey();
+        Console.WriteLine("TESTING AFTER READKEY");
+    }
+
 }

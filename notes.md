@@ -2,6 +2,8 @@
 
 ### semicolin should be at end of every line
 ### console.log("msg") => Console.WriteLine("msg")
+### Console.ReadLine() intakes what one types while program is running, and can set it to a variable etc
+### Console.ReadKey() essentially stops/pauses program at that stage, so that one can read terminal, clicking something again continues running it
 ### uses pascal case for methods
 ### uses camel case for variables
 ### variable char wrapped in SINGLE quotes
