@@ -85,7 +85,7 @@ public class MyFirstApp
         string test;
         if (num > 2)
         {
-            Console.WriteLine("success");
+            Console.WriteLine("Please Enter Something Here");
             string newTest = Console.ReadLine();
             if (newTest == "")
             {
@@ -96,14 +96,13 @@ public class MyFirstApp
                 test = newTest;
             }
 
-            Console.WriteLine("this is new text: {0}", test);
+            Console.WriteLine("You have entered this: {0}", test);
         }
         else
         {
             Console.WriteLine("failed");
         }
         Console.ReadKey();
-        Console.WriteLine("TESTING AFTER READKEY");
+        Console.WriteLine("static Main FINISHED RUNNING");
     }
-
 }
