@@ -116,3 +116,46 @@ play some blackjack with terminal
 // bool test2 = test1 == "hello"; //seems like these 2 are the same?
 // bool test2 = test1.Equals("hello"); //seems like these 2 are the same?
 // Console.WriteLine(test2);
+
+
+// string test = "helloo";
+// Console.WriteLine(test.Length);
+
+
+// build searches for "Main" as access point, so only 1 can be named "Main"
+//
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("PROGRAM START");
+        Person calvin = new Person("Calvin", "Tzeng");
+        Console.WriteLine("=========0");
+        calvin.hello();
+        Console.WriteLine("=========1");
+        calvin.changeFirstName("John");
+        Console.WriteLine("=========2");
+        calvin.hello();
+        Console.WriteLine("=========3");
+        Console.WriteLine("PROGRAM FINISHED");
+    }
+}
+class Person
+{
+    private string firstName;
+    private string lastName;
+    public Person(string f, string l)
+    {
+        firstName = f;
+        lastName = l;
+    }
+    public void hello()
+    {
+        Console.WriteLine("Hello " + firstName + " " + lastName);
+    }
+    public void changeFirstName(string newFirstName)
+    {
+        firstName = newFirstName;
+        Console.WriteLine("Name changed into " + firstName + " " + lastName);
+    }
+}
