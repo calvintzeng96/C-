@@ -76,33 +76,43 @@
 
 // Console.WriteLine("this is the new test: {0}", test)
 
+/*
+might be fun to make a little interaction game and
+play some blackjack with terminal
+*/
+// public class MyFirstApp
+// {
+//     public static void Main()
+//     {
+//         var num = 3;
+//         string test;
+//         if (num > 2)
+//         {
+//             Console.WriteLine("Please Enter Something Here");
+//             string newTest = Console.ReadLine();
+//             if (newTest == "")
+//             {
+//                 test = "you did not enter anything in";
+//             }
+//             else
+//             {
 
-public class MyFirstApp
-{
-    public static void Main()
-    {
-        var num = 3;
-        string test;
-        if (num > 2)
-        {
-            Console.WriteLine("Please Enter Something Here");
-            string newTest = Console.ReadLine();
-            if (newTest == "")
-            {
-                test = "you did not enter anything in";
-            }
-            else
-            {
-                test = newTest;
-            }
+//                 test = newTest;
+//             }
 
-            Console.WriteLine("You have entered this: {0}", test);
-        }
-        else
-        {
-            Console.WriteLine("failed");
-        }
-        Console.ReadKey();
-        Console.WriteLine("static Main FINISHED RUNNING");
-    }
-}
+//             Console.WriteLine("You have entered this: {0}", test);
+//         }
+//         else
+//         {
+//             Console.WriteLine("failed");
+//         }
+//         Console.ReadKey();
+//         Console.WriteLine("static Main FINISHED RUNNING");
+//     }
+// }
+
+// int test0 = 3;
+// string test1 = "hello";
+// bool test2 = test1 == "hello"; //seems like these 2 are the same?
+// bool test2 = test1.Equals("hello"); //seems like these 2 are the same?
+// Console.WriteLine(test2);
